@@ -1,4 +1,4 @@
-hosts: webserver
+- hosts: webserver
   become: true
   tasks:
   - name: Clone git repo
